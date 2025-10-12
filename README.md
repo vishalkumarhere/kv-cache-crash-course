@@ -1,6 +1,6 @@
-# KV-Cache Playground
+# KV Cache Crash Course
 
-An interactive Streamlit application for understanding and visualizing Key-Value (KV) caching in Transformer models.
+An interactive Streamlit application for understanding and visualizing Key-Value (KV) caching in Transformer models. This is the companion repository for the KV Cache crash course taught on AI Anytime.
 
 ## Features
 
@@ -19,7 +19,8 @@ An interactive Streamlit application for understanding and visualizing Key-Value
 
 1. **Clone the repository**:
 ```bash
-cd /path/to/kv-cache-playground
+git clone https://github.com/AIAnytime/kv-cache-crash-course.git
+cd kv-cache-crash-course
 ```
 
 2. **Create and activate virtual environment**:
@@ -58,7 +59,7 @@ Key-Value caching is an optimization technique for autoregressive generation in 
 - `models.py`: PyTorch implementation of Transformer models with and without KV-cache
 - `visualizations.py`: Plotly-based interactive charts and graphs
 - `ui_components.py`: Custom CSS and UI components for modern design
-- `kv_cache_tutorial.py`: Original tutorial implementation for reference
+- `main.py`: Original tutorial implementation for reference
 
 ## Usage Guide
 
