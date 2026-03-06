@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kv-cache-playground"
+package-mode = false
 version = "0.1.0"
 description = "Interactive KV-Cache Playground for understanding Transformer optimization"
 readme = "README.md"
@@ -21,5 +22,3 @@ dependencies = [
 ]
 
 
-[tool.setuptools.packages.find]
-where = ["."]
